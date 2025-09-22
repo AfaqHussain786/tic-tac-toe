@@ -103,11 +103,12 @@ h1{
     font-size: 4vmin;
 }
 .container {
+    margin-top: 10%;
     height: auto;               
     display: flex;
     flex-direction: column;     
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 .game{
     height: 65vmin;             /* ✅ smaller board */
