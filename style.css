@@ -1,0 +1,194 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #548687;
+    text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;  
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.1);
+    font-size: 10vmin;
+    color: brown;
+    background-color: #dbdbca;   
+}
+#reset-btn{
+    padding: 7px;
+    font-size: 1.25rem;
+    background-color: rgb(7, 173, 16);
+    color: rgb(253, 253, 253);
+    border-radius: 1rem;
+    
+
+}
+#new-btn{
+    padding: 7px;
+    font-size: 1.25rem;
+    background-color: rgb(164, 11, 11);
+    color: white;
+    border-radius: 1rem;
+}
+#msg{
+    color: whitesmoke;
+    font-size: 5vmin;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide{
+  display:  none;
+}
+.choice{
+    background-color: rgb(114, 204, 222);
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+    margin-left: 160px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.choice-x{
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 1rem;
+    background-color: black;
+    color: red;
+}
+.choice-o{
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 1rem;
+    background-color: black;
+    color: red;
+}
+.turns{
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+    border-radius: 1rem;
+    background-color: rgb(4, 143, 76);
+    color: rgb(243, 242, 245);  
+    margin-bottom: 1rem; 
+}.win{
+    background-color:#548687;
+    margin-left: 100px;
+}
+@media(max-width: 700px){
+body {
+    background-color: #548687;
+    text-align: center;
+}
+h1{
+    font-size: 4vmin;
+}
+.container {
+    height: auto;               
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;  
+}
+.game{
+    height: 65vmin;             /* ✅ smaller board */
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;                 
+}
+.box{
+    margin-top: 5px;
+    height: 20vmin;             /* ✅ smaller boxes */
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;          /* ✅ scale X and O */
+    color: brown;
+    background-color: #dbdbca;   
+}
+#reset-btn{
+    padding: 5px;
+    font-size: 1rem;
+    background-color: rgb(7, 173, 16);
+    color: rgb(253, 253, 253);
+    border-radius: 1rem;
+    margin: 5px;                
+}
+#new-btn{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(164, 11, 11);
+    color: white;
+    border-radius: 1rem;
+    margin: 5px;
+}
+#msg{
+    color: whitesmoke;
+    font-size: 6vmin;           
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide{
+  display: none;
+}
+.choice{
+    background-color: rgb(114, 204, 222);
+    width: 175px;               
+    height: 70px;
+    border-radius: 1rem;
+    margin: 10px;               
+    display: inline-block;
+}
+.choice-x{
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: black;
+    color: red;
+}
+.choice-o{
+    margin-top: 5px;
+    padding:3px;
+    border-radius: 1rem;
+    background-color: black;
+    color: red;
+}
+.turns{
+    padding: 7px 12px;
+    border-radius: 1rem;
+    background-color: rgb(4, 143, 76);
+    color: rgb(243, 242, 245);  
+    margin-bottom: 0.5rem; 
+}
+.win{
+    background-color:#548687;
+    margin-left: 0;             
+}
+}
