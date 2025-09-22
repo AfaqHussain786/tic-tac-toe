@@ -100,10 +100,11 @@ body {
     text-align: center;
 }
 h1{
+    margin-top: 20px;
     font-size: 4vmin;
 }
 .container {
-    margin-top: 10%;
+    margin-top: 15%;
     height: auto;               
     display: flex;
     flex-direction: column;     
@@ -148,7 +149,8 @@ h1{
 }
 #msg{
     color: whitesmoke;
-    font-size: 6vmin;           
+    font-size: 6vmin; 
+    margin-top: 50px;          
 }
 .msg-container{
     display: flex;
@@ -166,6 +168,7 @@ h1{
     border-radius: 1rem;
     margin: 10px;               
     display: inline-block;
+    margin-bottom: 5%;
 }
 .choice-x{
     margin-top: 5px;
@@ -182,6 +185,7 @@ h1{
     color: red;
 }
 .turns{
+    margin-top: 100px;
     padding: 7px 12px;
     border-radius: 1rem;
     background-color: rgb(4, 143, 76);
